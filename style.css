@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#navbar{
+    background: #333;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1;
+}
+.primary-text{
+    color: lightgreen;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    color: white;
+    padding: 0.75rem;
+}
+a:hover{
+    background: lightgreen;
+    border-radius: 5px;
+}
+
+/* showcase */
+
+#showcase{
+    background: #333 url('image_resources/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;   
+    
+    
+    background-color:rgba(0,0,0,0.5);
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.btn{
+    color: white;
+    background: lightgreen;
+    padding: 0.9rem;
+}
+.items{
+    display: flex;
+    padding: 1rem;
+}
+.item{
+    flex: 1;
+    padding: 1rem; 
+    text-align: center;
+}
+#what .items .item i{
+    background: lightgreen;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#what .items .item h3{
+    margin-bottom: 1rem;
+}
+.m-heading{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+#what{
+    margin-bottom: 2rem;
+}
+#who{
+    background: #333;
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+.who-content{
+    padding: 2rem;
+    color: white;
+}
+.who-img{
+    background: url('image_resources/people.jpg') no-repeat center center/cover;
+}
+.who-content h1{
+    padding-bottom: 1rem;
+}
+.who-content p{
+    padding-bottom: 1rem;
+}
+.who-content h3{
+    padding-bottom: 1rem;
+}
+.who-content ul li{
+    padding-bottom: 1rem;
+}
+#clients{
+    padding: 2rem;
+}
+#clients h1{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    padding: 2rem;
+}
+#clients .logo img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+#contact{
+    display: flex;
+}
+.contact-form{
+    background: lightgreen;
+    padding: 1rem;
+    
+}
+.contact-form .form-group, .contact-form h1 , .contact-form p{
+    padding-bottom: 0.5rem;
+}
+.contact-form .btn{
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background: #333;
+    align-items: center;
+}
+#contact .contact-form , #contact .map{
+    flex: 1;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form textarea, .contact .contact-form input{
+    width: 100%;
+    padding: 0.5rem; 
+}
+#main-footer{
+    background: #333;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
